@@ -1,26 +1,30 @@
 class Vurvey < Formula
   desc "Terminal client for the Vurvey API"
   homepage "https://vurvey.com"
-  version "0.2.0"
+  version "0.3.0"
   license :cannot_represent
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://storage.googleapis.com/vurvey-cli-releases/v0.2.0/vurvey_0.2.0_darwin_arm64.tar.gz"
-      sha256 "735b46d5162abe142dcdb05ab167698427bdd4f99b0088d8e7f73d9292093317"
+      url "https://storage.googleapis.com/vurvey-cli-releases/v0.3.0/vurvey_0.3.0_darwin_arm64.tar.gz"
+      sha256 "88b4c458414e8b0265d0f10d7d2a41b40215aa7b67420953a7a28ea57469209b
+f9a784568ad34c590c3987901090bbc83c609e63f5d61b94dbd3b6d924ffaa07"
     else
-      url "https://storage.googleapis.com/vurvey-cli-releases/v0.2.0/vurvey_0.2.0_darwin_amd64.tar.gz"
-      sha256 "26b5102f6d7ef1512b3c3703b18a3c8f787194c02fc4dbe561af94868f2c2f41"
+      url "https://storage.googleapis.com/vurvey-cli-releases/v0.3.0/vurvey_0.3.0_darwin_amd64.tar.gz"
+      sha256 "3619d27870af03733b98512de67c409b2af36598745a54d538341a12b2c68d85
+1455120d013f65c78f799d2ca8f0222135c7b050ca0c824cf222e896fd797fa8"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://storage.googleapis.com/vurvey-cli-releases/v0.2.0/vurvey_0.2.0_linux_arm64.tar.gz"
-      sha256 "184b23e328da78b715bb0eb0f54bdc1410e1c3bc9f7f5f0327a1612edd196b03"
+      url "https://storage.googleapis.com/vurvey-cli-releases/v0.3.0/vurvey_0.3.0_linux_arm64.tar.gz"
+      sha256 "1eadf9bcdc237e6a4f87feb39bb3519d5172f1dc9418ee2237a7c328fcbe069f
+aa68763067b454a6b73b6d2149bb0bfa77cd40550879f27d7b7779301c44207b"
     else
-      url "https://storage.googleapis.com/vurvey-cli-releases/v0.2.0/vurvey_0.2.0_linux_amd64.tar.gz"
-      sha256 "d85170ba362e05976137a0fad3ef0a188dd9ae5e30c9c934da912cbed922ff9d"
+      url "https://storage.googleapis.com/vurvey-cli-releases/v0.3.0/vurvey_0.3.0_linux_amd64.tar.gz"
+      sha256 "e82b204ea766cee2901f3ece275f2d3fa2240e4e99013ab42b0efd8e3f0e1cdc
+b0f01956af5aa7e37088f43951c7b7cf782912de7c3aa8b15e789039ba97cb20"
     end
   end
 
