@@ -1,26 +1,26 @@
 class Vurvey < Formula
   desc "Terminal client for the Vurvey API"
   homepage "https://vurvey.com"
-  version "0.9.2"
+  version "0.9.3"
   license :cannot_represent
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://storage.googleapis.com/vurvey-cli-releases/v0.9.2/vurvey_0.9.2_darwin_arm64.tar.gz"
-      sha256 "f1070da3b6633eddad4a6b096080379b57e02990040ecda2e14b3ff5f12bd658"
+      url "https://storage.googleapis.com/vurvey-cli-releases/v0.9.3/vurvey_0.9.3_darwin_arm64.tar.gz"
+      sha256 "6a77041d8ce668c2e76abb05504a203cdc23c190a7c955da33a9465b1d7bb0ca"
     else
-      url "https://storage.googleapis.com/vurvey-cli-releases/v0.9.2/vurvey_0.9.2_darwin_amd64.tar.gz"
-      sha256 "a437e4b9e9cb0dacfc79dffcbc28deadd3ec6b58335cdd35948a873047db9e5e"
+      url "https://storage.googleapis.com/vurvey-cli-releases/v0.9.3/vurvey_0.9.3_darwin_amd64.tar.gz"
+      sha256 "dd6737591c0d3f1c0ff4c0d3f3eda875226b03ef1880b8afd679a391ca72811e"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://storage.googleapis.com/vurvey-cli-releases/v0.9.2/vurvey_0.9.2_linux_arm64.tar.gz"
-      sha256 "b6e7c1f62584fc6fcd154fbe0cd05e15284cedc8fdba727e1144cc3593ba5d16"
+      url "https://storage.googleapis.com/vurvey-cli-releases/v0.9.3/vurvey_0.9.3_linux_arm64.tar.gz"
+      sha256 "1379d751bfa8fbca23bf9eba18d8b9f30827f714df2b5b663240da38da1b71cf"
     else
-      url "https://storage.googleapis.com/vurvey-cli-releases/v0.9.2/vurvey_0.9.2_linux_amd64.tar.gz"
-      sha256 "0b8086533a112c377f66d194c8cf57d3bbef4251486bba579d6a783742b4f445"
+      url "https://storage.googleapis.com/vurvey-cli-releases/v0.9.3/vurvey_0.9.3_linux_amd64.tar.gz"
+      sha256 "25a7a855e1fa3db0b54a98db4834a4ae30da05357c399cffc1407940f7b30289"
     end
   end
 
